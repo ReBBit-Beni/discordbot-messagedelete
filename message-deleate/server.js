@@ -43,7 +43,7 @@ client.on('message', async message => {
 });
 
 client.on("message", async message => {
-        if (message.content.match(/しね|ころす|死ね|殺す|きっしょ|ゴミ|野獣先輩|糞|カス|tinnko|tinko|tinnpo|tinpo/)) {
+        if (message.content.match(/しね|ころす|死ね|殺す|きっしょ|ゴミ|野獣先輩|糞|カス|tinnko|tinko|tinnpo|tinpo|キッショ|盧溝橋|反社/)) {
         message.delete();
         message.channel.send('不適切な表現が含まれていたため、削除しました。');
           }
